@@ -1,0 +1,15 @@
+[project]
+name = "shopping-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph>=1,<2",
+    "pydantic>=2,<3",
+]
+
+[project.optional-dependencies]
+live = ["openai>=2,<3"]
+ui = ["streamlit>=1,<2"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.14,<1"]

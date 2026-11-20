@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "snapshot": "fixture-v1",
+    "origin": "synthetic",
+    "categories": ["All_Beauty", "Amazon_Fashion", "Appliances", "Arts_Crafts_and_Sewing"],
+    "description": "Invented products, prices, reviews and rankings for offline testing. No Amazon records or genuine customer history.",
+    "product_id_field": "synthetic fixture id",
+    "context_provenance": "Hand-authored example personas and rankings; no shopper data or fitted recommender."
+  },
+  "products": [
+    {"id": "beauty-cleanser", "category": "All_Beauty", "title": "Gentle Face Cleanser", "price": "12.99", "keywords": ["face wash", "skincare", "fragrance", "skin", "gentle"]},
+    {"id": "beauty-lotion", "category": "All_Beauty", "title": "Unscented Daily Lotion", "price": "18.50", "keywords": ["moisturizer", "skincare", "body lotion", "fragrance", "skin"]},
+    {"id": "beauty-serum", "category": "All_Beauty", "title": "Night Serum Set", "price": "46.00", "keywords": ["skincare", "face serum", "skin", "gift"]},
+    {"id": "beauty-brush", "category": "All_Beauty", "title": "Travel Makeup Brush", "price": null, "keywords": ["makeup", "brush", "travel", "gift"]},
+    {"id": "fashion-tote", "category": "Amazon_Fashion", "title": "Everyday Canvas Tote", "price": "24.00", "keywords": ["bag", "tote", "travel", "durability", "strap"]},
+    {"id": "fashion-scarf", "category": "Amazon_Fashion", "title": "Soft Knit Scarf", "price": "19.00", "keywords": ["scarf", "comfort", "gift", "clothing"]},
+    {"id": "fashion-backpack", "category": "Amazon_Fashion", "title": "Structured Day Backpack", "price": "52.00", "keywords": ["bag", "backpack", "travel", "durability", "strap"]},
+    {"id": "fashion-cap", "category": "Amazon_Fashion", "title": "Cotton Baseball Cap", "price": null, "keywords": ["cap", "hat", "clothing"]},
+    {"id": "app-kettle", "category": "Appliances", "title": "Compact Electric Kettle", "price": "29.99", "keywords": ["kitchen", "small appliance", "tea", "coffee", "water", "quiet", "noise"]},
+    {"id": "app-toaster", "category": "Appliances", "title": "Two-Slice Countertop Toaster", "price": "39.99", "keywords": ["kitchen", "small appliance", "bread", "breakfast", "noise"]},
+    {"id": "app-blender", "category": "Appliances", "title": "Personal Smoothie Blender", "price": "49.99", "keywords": ["kitchen", "small appliance", "smoothie", "quiet", "noise"]},
+    {"id": "app-grinder", "category": "Appliances", "title": "Countertop Coffee Grinder", "price": null, "keywords": ["kitchen", "small appliance", "coffee", "noise", "grind"]},
+    {"id": "app-mini-vac", "category": "Appliances", "title": "Handheld Desk Vacuum", "price": "24.00", "keywords": ["small appliance", "vacuum", "cleaning", "noise", "desk"]},
+    {"id": "art-kit", "category": "Arts_Crafts_and_Sewing", "title": "Beginner Embroidery Kit", "price": "16.50", "keywords": ["embroidery", "sewing", "beginner", "kit", "gift"]},
+    {"id": "art-yarn", "category": "Arts_Crafts_and_Sewing", "title": "Cotton Yarn Starter Set", "price": "23.00", "keywords": ["yarn", "knitting", "crochet", "beginner", "gift"]},
+    {"id": "art-machine", "category": "Arts_Crafts_and_Sewing", "title": "Portable Sewing Machine", "price": "68.00", "keywords": ["sewing", "machine", "beginner", "instructions", "noise"]},
+    {"id": "art-paint", "category": "Arts_Crafts_and_Sewing", "title": "Watercolor Travel Palette", "price": null, "keywords": ["paint", "watercolor", "beginner", "travel"]}
+  ],
+  "evidence": [
+    {"id": "ev-beauty-cleanser-1", "product_id": "beauty-cleanser", "text": "I found this face wash gentle and noticed very little fragrance.", "source": "Synthetic review F01"},
+    {"id": "ev-beauty-cleanser-2", "product_id": "beauty-cleanser", "text": "The fragrance was light for me, but it left my cheeks feeling dry.", "source": "Synthetic review F02"},
+    {"id": "ev-beauty-lotion-1", "product_id": "beauty-lotion", "text": "I noticed no fragrance, and the lotion was easy to spread.", "source": "Synthetic review F03"},
+    {"id": "ev-beauty-serum-1", "product_id": "beauty-serum", "text": "The kit came in a box suitable for a gift.", "source": "Synthetic review F04"},
+    {"id": "ev-fashion-tote-1", "product_id": "fashion-tote", "text": "The strap was comfortable with a light load; the canvas held up during my first month.", "source": "Synthetic review F05"},
+    {"id": "ev-fashion-scarf-1", "product_id": "fashion-scarf", "text": "The knit felt soft around my neck, although I needed to hand-wash it.", "source": "Synthetic review F06"},
+    {"id": "ev-fashion-backpack-1", "product_id": "fashion-backpack", "text": "The padded strap was comfortable for my commute.", "source": "Synthetic review F07"},
+    {"id": "ev-app-kettle-1", "product_id": "app-kettle", "text": "There was a short burst of noise near boiling, but it was quiet otherwise.", "source": "Synthetic review F08"},
+    {"id": "ev-app-kettle-2", "product_id": "app-kettle", "text": "It boiled enough water for my two mugs and fit on a small counter.", "source": "Synthetic review F09"},
+    {"id": "ev-app-toaster-1", "product_id": "app-toaster", "text": "The lever made a sharp pop, but there was little other noise in my kitchen.", "source": "Synthetic review F10"},
+    {"id": "ev-app-toaster-2", "product_id": "app-toaster", "text": "Two slices fit well; my thick bread needed an extra cycle.", "source": "Synthetic review F11"},
+    {"id": "ev-app-blender-1", "product_id": "app-blender", "text": "The blender made substantial noise while crushing ice.", "source": "Synthetic review F12"},
+    {"id": "ev-app-mini-vac-1", "product_id": "app-mini-vac", "text": "The noise was noticeable at my desk, though it cleaned up crumbs well.", "source": "Synthetic review F13"},
+    {"id": "ev-art-kit-1", "product_id": "art-kit", "text": "The beginner instructions helped me finish my first pattern.", "source": "Synthetic review F14"},
+    {"id": "ev-art-kit-2", "product_id": "art-kit", "text": "The instructions were clear, but I needed to replay the stitching video.", "source": "Synthetic review F15"},
+    {"id": "ev-art-yarn-1", "product_id": "art-yarn", "text": "The yarn was easy for me to handle as a beginner.", "source": "Synthetic review F16"},
+    {"id": "ev-art-machine-1", "product_id": "art-machine", "text": "I found the instructions helpful; thick fabric slowed the machine.", "source": "Synthetic review F17"}
+  ],
+  "recommendations": {
+    "example-shopper": {
+      "All_Beauty": ["beauty-lotion", "beauty-serum", "beauty-cleanser"],
+      "Amazon_Fashion": ["fashion-backpack", "fashion-tote", "fashion-scarf"],
+      "Appliances": ["app-blender", "app-kettle", "app-toaster"],
+      "Arts_Crafts_and_Sewing": ["art-yarn", "art-kit", "art-machine"]
+    },
+    "example": {
+      "All_Beauty": ["beauty-lotion", "beauty-cleanser"],
+      "Amazon_Fashion": ["fashion-tote", "fashion-scarf"],
+      "Appliances": ["app-kettle", "app-toaster"],
+      "Arts_Crafts_and_Sewing": ["art-yarn", "art-kit"]
+    }
+  }
+}

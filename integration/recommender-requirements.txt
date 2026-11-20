@@ -1,0 +1,6 @@
+# Direct checkpoint inference dependencies verified with CPython 3.14.6 on macOS ARM64.
+# Use a separate environment from the shopping agent's locked application environment.
+numpy==2.5.4
+pandas==3.1.1
+torch==2.11.0
+transformers==5.8.0

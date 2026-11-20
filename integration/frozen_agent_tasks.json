@@ -1,0 +1,30 @@
+{
+  "purpose": "Pre-implementation tasks for comparing the legacy fixed workflow and the model-led loop. Use identical Electronics catalog, review index, runner, chat model, starting profile, and independent sessions.",
+  "tasks": [
+    {
+      "id": "capabilities",
+      "turns": ["Before we get going, what can you help a shopper figure out?"],
+      "expect": ["Describe electronics shopping assistance", "Zero shopping tools"]
+    },
+    {
+      "id": "adapt-budget",
+      "turns": ["Hello! Could you find HDMI cables for at most $14?", "Got it, thanks.", "Can we cap the same search at $7?"],
+      "expect": ["Return matching priced products within both caps", "Preserve search keywords and numbering on the interjection", "No tools on the interjection"]
+    },
+    {
+      "id": "evidence-choice",
+      "turns": ["I'm choosing between B08KSJ56WR and B09TNV7Q69. Easy setup matters to me. Which choice does the evidence support?"],
+      "expect": ["Look for review evidence for both ASINs", "Tie an easy-setup assessment only to a matching review and its ASIN", "Disclose limited evidence"]
+    },
+    {
+      "id": "rating-fallback",
+      "turns": ["Between B07NY21DF6 and B09TNV7Q69, see whether reviews support reliable operation at minus 30 degrees. If the sample is inconclusive, choose by higher average catalog rating and explain what remains unknown."],
+      "expect": ["Disclose the absence of qualifying evidence", "Choose Forza's 4.7 vs BN-LINK's 4.5 based on published catalog average only", "Avoid attributing low-temperature suitability"]
+    },
+    {
+      "id": "missing-price",
+      "turns": ["Which of B07X4854MR and B07NY21DF6 is cheaper in the catalog?"],
+      "expect": ["Identify Forza's USD 25.00 and the other item's missing price", "Leave relative cost unresolved", "Use no review searches"]
+    }
+  ]
+}
